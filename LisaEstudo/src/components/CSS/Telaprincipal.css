@@ -1,0 +1,30 @@
+.centralizado {
+    display: flex;
+    flex-direction: column;      
+    height: 100vh;  
+    background-color: cornsilk;          
+    
+  }
+  
+  .Teste h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10;
+    color: rgb(0, 0, 0);
+  }
+
+  .Teste h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10;
+    color: rgb(0, 0, 0);
+  }
+  
+  ion-content::part(background) {
+    background: cornsilk;
+  }
+  
+  ion-content::part(scroll) {
+    color: #fff;
+  }

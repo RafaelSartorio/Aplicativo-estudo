@@ -1,7 +1,7 @@
 import { IonAccordion, IonAccordionGroup, IonButton, IonContent, IonIcon, IonItem, IonLabel } from "@ionic/react";
 import './ConponentesMat.css'
 import MatemáticaBasica from "./MatmáticaBasica";
-import Aritimética from "./Aritimética";
+import Algebra from "./Algebra";
 
 const ComponentesMat: React.FC = () =>{
     return(
@@ -23,7 +23,7 @@ const ComponentesMat: React.FC = () =>{
                         <IonLabel>Aritimética</IonLabel>
                     </IonItem>
                     <div className="ion-padding custom-background" slot="content" >
-                        <Aritimética/>
+                        <Algebra/>
                     </div>
                 </IonAccordion>
                 

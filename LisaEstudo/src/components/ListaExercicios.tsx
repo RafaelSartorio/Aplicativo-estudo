@@ -96,7 +96,7 @@ const ListaExercicio: React.FC<ListaExercicioProps> = ({ questions }) => {
                     }}
                 />
                 )}
-                <p>{q.question}</p>
+                <p >{q.question}</p>
                 {q.options.map((option) => (
                   <IonItem key={option.id}>
                     <IonLabel>

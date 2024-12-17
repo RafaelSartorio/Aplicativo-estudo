@@ -33,19 +33,42 @@
       ],
       image:"https://s2.static.brasilescola.uol.com.br/exercicios/2024/10/questao-tres-matematica-basica.jpg",
     },
-  ];
 
-  export const questionsAritimatica = [
     {
-        id: "4",
-        question: "Quanto é 7 - 2?",
+      id: "q4",
+      question: "(IFG 2012) As medidas internas de um reservatório no formato de um paralelepípedo são de 2,5m de comprimento, 1,8m de largura e 1,2m de profundidade (altura). Se em determinado momento do dia esse reservatório está apenas com 70% de sua capacidade, a quantidade de litros que faltam para encher esse reservatório é igual a:",
+      options: [
+        { id: "a", text: "1620", isCorrect: true },
+        { id: "b", text: "1630", isCorrect: false },
+        { id: "c", text: "1640", isCorrect: false },
+        { id: "d", text: "1650", isCorrect: false },
+      ],
+    },
+    {
+      id: "q4",
+      question: "(Enem 2014) Os incas desenvolveram uma maneira de registrar quantidades e representar números utilizando um sistema de numeração decimal posicional: um conjunto de cordas com nós denominado quipus. O quipus era feito de uma corda matriz, ou principal (mais grossa que as demais), na qual eram penduradas outras cordas, mais finas, de diferentes tamanhos e cores (cordas pendentes). De acordo com a sua posição, os nós significavam unidades, dezenas, centenas e milhares Na Figura 1, o quipus representa o número decimal 2453. Para representar o “zero” em qualquer posição, não se coloca nenhum nó.",
+      options: [
+        { id: "a", text: "364", isCorrect: false },
+        { id: "b", text: "463", isCorrect: false },
+        { id: "c", text: "3640", isCorrect: true },
+        { id: "d", text: "1650", isCorrect: false },
+        { id: "e", text: "4603", isCorrect: false },
+      ],
+      image:"https://s3.static.brasilescola.uol.com.br/exercicios/2024/10/imagem-questao5.jpg"
+    },
+  ];
+   
+  export const QuestõesAlgebra = [
+    {
+        id: "1",
+        question: "Durante a resolução de exercícios sobre expressões algébricas, o professor pediu para que os alunos realizassem a simplificação da expressão 8(3 – 5x) + 4(3x – 6). Se a simplificação for feita  matematicamente, o polinômio encontrado será:",
         options: [
-          { id: "a", text: "4", isCorrect: false },
-          { id: "b", text: "5", isCorrect: true },
-          { id: "c", text: "6", isCorrect: false },
-          { id: "d", text: "3", isCorrect: false },
+          { id: "a", text: " 28x + 24", isCorrect: false },
+          { id: "b", text: "-12", isCorrect: false },
+          { id: "c", text: "-14x + 12", isCorrect: false },
+          { id: "d", text: "-28x", isCorrect: true },
+          { id: "e", text: "52x + 48", isCorrect: false },
         ],
-        image: "https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
       },
   ]
     

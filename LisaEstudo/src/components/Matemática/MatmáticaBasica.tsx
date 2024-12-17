@@ -1,7 +1,7 @@
 import { IonAccordion, IonAccordionGroup, IonButton, IonCard, IonCardContent, IonCheckbox, IonItem, IonLabel, IonList } from "@ionic/react";
 import { useState } from "react";
-import { questionsAritimatica, questionsBasic } from "./QuestõesMat";
-import ListaExercicio from "./ListaExercicios";
+import { QuestõesAlgebra, questionsBasic } from "./QuestõesMat";
+import ListaExercicio from "../ListaExercicios";
 
 const MatemáticaBasica: React.FC = () =>{
     //Estado que serve para ver e mostrar o resultado para o usuario.       
@@ -45,6 +45,14 @@ const MatemáticaBasica: React.FC = () =>{
                     </IonItem>
                     <div slot="content" className="ion-padding Categoria">
                         <ListaExercicio questions={questionsBasic} /> 
+                        <br></br>
+                        <IonButton color='warning'>
+                            <a
+                            style={{ textDecoration: 'none', color: 'inherit' }}  
+                            href="https://exercicios.brasilescola.uol.com.br/exercicios-matematica/30-exercicios-de-matematica-basica.htm">
+                                Clique aqui para mais exerciciosde matemática básica com gabarito
+                            </a>
+                        </IonButton>
                     </div>
                 </IonAccordion>
         </IonAccordionGroup>

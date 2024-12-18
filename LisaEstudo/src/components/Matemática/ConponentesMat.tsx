@@ -2,6 +2,7 @@ import { IonAccordion, IonAccordionGroup, IonButton, IonContent, IonIcon, IonIte
 import './ConponentesMat.css'
 import MatemáticaBasica from "./MatmáticaBasica";
 import Algebra from "./Algebra";
+import Geometria from "./Geometria";
 
 const ComponentesMat: React.FC = () =>{
     return(
@@ -24,6 +25,14 @@ const ComponentesMat: React.FC = () =>{
                     </IonItem>
                     <div className="ion-padding custom-background" slot="content" >
                         <Algebra/>
+                    </div>
+                </IonAccordion>
+                <IonAccordion value="3">
+                    <IonItem slot="header" color="dark">
+                        <IonLabel>Geometria</IonLabel>
+                    </IonItem>
+                    <div className="ion-padding custom-background" slot="content">
+                        <Geometria/>
                     </div>
                 </IonAccordion>
                 

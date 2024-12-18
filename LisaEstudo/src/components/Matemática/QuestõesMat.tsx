@@ -35,7 +35,7 @@
     },
 
     {
-      id: "q4",
+      id: "q3",
       question: "(IFG 2012) As medidas internas de um reservatório no formato de um paralelepípedo são de 2,5m de comprimento, 1,8m de largura e 1,2m de profundidade (altura). Se em determinado momento do dia esse reservatório está apenas com 70% de sua capacidade, a quantidade de litros que faltam para encher esse reservatório é igual a:",
       options: [
         { id: "a", text: "1620", isCorrect: true },
@@ -118,6 +118,72 @@
           { id: "a", text: "4x<sup>2</sup>+ 20x - 25", isCorrect: false },
         ],
         image:"https://s4.static.brasilescola.uol.com.br/exercicios/2022/05/1-retangulo-roxo-claro.jpg"
+      },
+  ]
+
+  export const questõesGeometriaPlana = [
+    {
+      id: "1",
+        question: "(Enem 2016)  Um senhor, pai de dois filhos, deseja comprar dois terrenos, com áreas de mesma medida, um para cada filho. Um dos terrenos visitados já está demarcado e, embora não tenha um formato convencional (como se observa na Figura B), agradou ao filho mais velho e, por isso, foi comprado. O filho mais novo possui um projeto arquitetônico de uma casa que quer construir, mas, para isso, precisa de um terreno na forma retangular (como mostrado na Figura A) cujo comprimento seja  7 m  maior do que a largura. Para satisfazer o filho mais novo, esse senhor precisa encontrar um terreno retangular cujas medidas, em metro, do comprimento e da largura sejam iguais, respectivamente, a ",
+        options: [
+          { id: "a", text: "7,5 e 14,5.", isCorrect: false },
+          { id: "b", text: "9,0 e 16,0.", isCorrect: true },
+          { id: "c", text: " 9,39,3 e 16,3.", isCorrect: false },
+          { id: "d", text: "10,0 e 17,0.", isCorrect: false },
+          { id: "a", text: "13,5 e 20,5.", isCorrect: false },
+        ],
+        image:"https://s2.static.brasilescola.uol.com.br/exercicios/2021/10/representacao-area-dois-terrenos.jpg"
+    },
+
+      {
+        id: "2",
+            question: "(Enem 2019) Uma administração municipal encomendou a pintura de dez placas de sinalização para colocar em seu pátio de estacionamento.  O profissional contratado para o serviço inicial pintará o fundo de dez placas e cobrará um valor de acordo com a área total dessas placas. O formato de cada placa é um círculo de diâmetro d = 40 cm, que tangencia lados de um retângulo, sendo que o comprimento total da placa é h = 60 cm, conforme ilustrado na figura. Use 3,14 como aproximação para π. Qual é a soma das medidas das áreas, em centímetros quadrados, das dez placas? ",
+            options: [
+              { id: "a", text: "16.628", isCorrect: false },
+              { id: "b", text: "22.280", isCorrect: true },
+              { id: "c", text: "28.560.", isCorrect: false },
+              { id: "d", text: "41.120", isCorrect: false },
+              { id: "a", text: "66.240", isCorrect: false },
+            ],
+            image:"https://s4.static.brasilescola.uol.com.br/exercicios/2021/10/placa-proibido-estacionar.jpg"
+      },
+    
+      {
+        id: "3",
+            question: "Um brinquedo chamado pula-pula, quando visto de cima, consiste de uma cama elástica com contorno em formato de um hexágono regular. Se a área do círculo inscrito no hexágono é 3π metros quadrados, então a área do hexágono, em metro quadrado, é: ",
+            options: [
+              { id: "a", text: "9", isCorrect: false },
+              { id: "b", text: "6√3", isCorrect: true },
+              { id: "c", text: "9√2", isCorrect: false },
+              { id: "d", text: "12", isCorrect: false },
+              { id: "a", text: "12√3", isCorrect: false },
+            ],
+            image:"https://s2.static.brasilescola.uol.com.br/exercicios/2021/10/cama-elastica-hexagono-regular.jpg"
+      },
+
+      {
+        id: "4",
+            question: "(Enem 2020 - digital) Uma empresa deseja construir um edifício residencial de 12 pavimentos, num lote retangular de lados medindo 22 e 26 m. Em 3 dos lados do lote serão construídos muros. A frente do prédio será sobre o lado do lote de menor comprimento. Sabe-se que em cada pavimento 32 m2 serão destinados à área comum (hall de entrada, elevadores e escada), e o restante da área será destinado às unidades habitacionais. A legislação vigente exige que prédios sejam construídos mantendo distâncias mínimas dos limites dos lotes onde se encontram. Em obediência à legislação, o prédio ficará 5 m afastado da rua onde terá sua entrada, 3 m de distância do muro no fundo do lote e 4 m de distância dos muros nas laterais do lote, como mostra a figura. A área total, em metro quadrado, destinada às unidades habitacionais desse edifício será de ",
+            options: [
+              { id: "a", text: "2640", isCorrect: true },
+              { id: "b", text: "3024", isCorrect: false },
+              { id: "c", text: "3840", isCorrect: false },
+              { id: "d", text: "6480", isCorrect: false },
+              { id: "a", text: "6864", isCorrect: false },
+            ],
+            image:"https://s1.static.brasilescola.uol.com.br/exercicios/2021/10/planta-edificio-residencial.jpg"
+      },
+      {
+        id: "5",
+            question: "(Enem) João tem uma loja onde fabrica e vende moedas de chocolate com diâmetro de 4 cm e preço de R$ 1,50 a unidade. Pedro vai a essa loja e, após comer várias moedas de chocolate, sugere ao João que ele faça moedas com 8 cm de diâmetro e mesma espessura e cobre R$ 3 a unidade. Considerando que o preço da moeda depende apenas da quantidade de chocolate, João",
+            options: [
+              { id: "a", text: "aceita a proposta de Pedro, pois, se dobra o diâmetro, o preço também deve dobrar.", isCorrect: false },
+              { id: "b", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 12.", isCorrect: false },
+              { id: "c", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 7,50.", isCorrect: false },
+              { id: "d", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 6", isCorrect: true },
+              { id: "a", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 4,50.", isCorrect: false },
+            ],
+            image:"https://s1.static.brasilescola.uol.com.br/exercicios/2021/10/planta-edificio-residencial.jpg"
       },
   ]
     

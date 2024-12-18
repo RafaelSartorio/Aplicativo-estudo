@@ -44,6 +44,15 @@ const Algebra: React.FC = () =>{
                 </IonItem>
                 <div slot="content" className="ion-padding Categoria">
                     <ListaExercicio questions={QuestõesAlgebra} />
+                    <br></br>
+                    <IonButton color='success'>
+                        <a 
+                        style={{ textDecoration: 'none', color: 'inherit' }}
+                        href="https://exercicios.brasilescola.uol.com.br/exercicios-matematica/exercicios-sobre-expressao-algebrica.htm"
+                        >
+                            Para mais questões sobre algebra
+                        </a>
+                    </IonButton>
                 </div>
             </IonAccordion>
         </IonAccordionGroup>

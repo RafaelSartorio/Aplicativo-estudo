@@ -70,6 +70,55 @@
           { id: "e", text: "52x + 48", isCorrect: false },
         ],
       },
+
+      {
+        id: "2",
+        question: "Um quadrado possui a medida dos seus lados iguais a (x + 3). Sabendo que a área de um quadrado é igual ao quadrado do seu lado, então a área do quadrado em questão é igual a:",
+        options: [
+          { id: "a", text: "x<sup>2</sup>+ 3", isCorrect: false },
+          { id: "b", text: "x<sup>3</sup>+ 9", isCorrect: false },
+          { id: "c", text: "x<sup>2</sup>+ 6x", isCorrect: false },
+          { id: "d", text: "x<sup>2</sup>+ 6x + 9", isCorrect: true },
+          { id: "a", text: "x<sup>2</sup>+ 6x + 3", isCorrect: false },
+        ],
+      },
+
+      {
+        id: "3",
+        question: "Dadas as expressões algébricas a seguir, marque aquela que pode ser classificada como um binômio:",
+        options: [
+          { id: "a", text: "1bx<sup>2</sup>", isCorrect: false },
+          { id: "b", text: "3b + 2x", isCorrect: true },
+          { id: "c", text: "2bx", isCorrect: false },
+          { id: "d", text: "2x + 3y + z", isCorrect: false },
+          { id: "a", text: "2", isCorrect: false },
+        ],
+      },
+
+      {
+        id: "4",
+        question: "Dadas as expressões algébricas A: 2x + 3y + 4 e B: 5x – 3y, então o valor de A + B será:",
+        options: [
+          { id: "a", text: "11xy", isCorrect: false },
+          { id: "b", text: "7x + y + 4", isCorrect: false },
+          { id: "c", text: " 7x + 4", isCorrect: true },
+          { id: "d", text: "5x – 4", isCorrect: false },
+          { id: "a", text: "7x – y", isCorrect: false },
+        ],
+      },
+
+      {
+        id: "5",
+        question: "Sabendo que a área do retângulo é o produto dos seus lados, então a expressão algébrica que representa a área do retângulo acima é:",
+        options: [
+          { id: "a", text: "2x<sup>2</sup> + 5", isCorrect: false },
+          { id: "b", text: "4x<sup>2</sup>+25", isCorrect: false },
+          { id: "c", text: "4x<sup>2</sup>-25", isCorrect: true },
+          { id: "d", text: "4x<sup>2</sup>- 10x + 25", isCorrect: false },
+          { id: "a", text: "4x<sup>2</sup>+ 20x - 25", isCorrect: false },
+        ],
+        image:"https://s4.static.brasilescola.uol.com.br/exercicios/2022/05/1-retangulo-roxo-claro.jpg"
+      },
   ]
     
 

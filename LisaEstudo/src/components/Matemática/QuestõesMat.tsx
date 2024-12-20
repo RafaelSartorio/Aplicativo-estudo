@@ -79,7 +79,7 @@
           { id: "b", text: "x<sup>3</sup>+ 9", isCorrect: false },
           { id: "c", text: "x<sup>2</sup>+ 6x", isCorrect: false },
           { id: "d", text: "x<sup>2</sup>+ 6x + 9", isCorrect: true },
-          { id: "a", text: "x<sup>2</sup>+ 6x + 3", isCorrect: false },
+          { id: "e", text: "x<sup>2</sup>+ 6x + 3", isCorrect: false },
         ],
       },
 
@@ -91,7 +91,7 @@
           { id: "b", text: "3b + 2x", isCorrect: true },
           { id: "c", text: "2bx", isCorrect: false },
           { id: "d", text: "2x + 3y + z", isCorrect: false },
-          { id: "a", text: "2", isCorrect: false },
+          { id: "e", text: "2", isCorrect: false },
         ],
       },
 
@@ -103,7 +103,7 @@
           { id: "b", text: "7x + y + 4", isCorrect: false },
           { id: "c", text: " 7x + 4", isCorrect: true },
           { id: "d", text: "5x – 4", isCorrect: false },
-          { id: "a", text: "7x – y", isCorrect: false },
+          { id: "e", text: "7x – y", isCorrect: false },
         ],
       },
 
@@ -115,7 +115,7 @@
           { id: "b", text: "4x<sup>2</sup>+25", isCorrect: false },
           { id: "c", text: "4x<sup>2</sup>-25", isCorrect: true },
           { id: "d", text: "4x<sup>2</sup>- 10x + 25", isCorrect: false },
-          { id: "a", text: "4x<sup>2</sup>+ 20x - 25", isCorrect: false },
+          { id: "e", text: "4x<sup>2</sup>+ 20x - 25", isCorrect: false },
         ],
         image:"https://s4.static.brasilescola.uol.com.br/exercicios/2022/05/1-retangulo-roxo-claro.jpg"
       },
@@ -130,7 +130,7 @@
           { id: "b", text: "9,0 e 16,0.", isCorrect: true },
           { id: "c", text: " 9,39,3 e 16,3.", isCorrect: false },
           { id: "d", text: "10,0 e 17,0.", isCorrect: false },
-          { id: "a", text: "13,5 e 20,5.", isCorrect: false },
+          { id: "e", text: "13,5 e 20,5.", isCorrect: false },
         ],
         image:"https://s2.static.brasilescola.uol.com.br/exercicios/2021/10/representacao-area-dois-terrenos.jpg"
     },
@@ -143,7 +143,7 @@
               { id: "b", text: "22.280", isCorrect: true },
               { id: "c", text: "28.560.", isCorrect: false },
               { id: "d", text: "41.120", isCorrect: false },
-              { id: "a", text: "66.240", isCorrect: false },
+              { id: "e", text: "66.240", isCorrect: false },
             ],
             image:"https://s4.static.brasilescola.uol.com.br/exercicios/2021/10/placa-proibido-estacionar.jpg"
       },
@@ -156,7 +156,7 @@
               { id: "b", text: "6√3", isCorrect: true },
               { id: "c", text: "9√2", isCorrect: false },
               { id: "d", text: "12", isCorrect: false },
-              { id: "a", text: "12√3", isCorrect: false },
+              { id: "e", text: "12√3", isCorrect: false },
             ],
             image:"https://s2.static.brasilescola.uol.com.br/exercicios/2021/10/cama-elastica-hexagono-regular.jpg"
       },
@@ -169,7 +169,7 @@
               { id: "b", text: "3024", isCorrect: false },
               { id: "c", text: "3840", isCorrect: false },
               { id: "d", text: "6480", isCorrect: false },
-              { id: "a", text: "6864", isCorrect: false },
+              { id: "e", text: "6864", isCorrect: false },
             ],
             image:"https://s1.static.brasilescola.uol.com.br/exercicios/2021/10/planta-edificio-residencial.jpg"
       },
@@ -181,10 +181,76 @@
               { id: "b", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 12.", isCorrect: false },
               { id: "c", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 7,50.", isCorrect: false },
               { id: "d", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 6", isCorrect: true },
-              { id: "a", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 4,50.", isCorrect: false },
+              { id: "e", text: "rejeita a proposta de Pedro, pois o preço correto seria R$ 4,50.", isCorrect: false },
             ],
             image:"https://s1.static.brasilescola.uol.com.br/exercicios/2021/10/planta-edificio-residencial.jpg"
       },
+  ]
+
+  export const questõesGeometriaEspacial = [
+    {
+      id: "1",
+          question: "Das formas geométricas a seguir, marque a alternativa que possui somente sólidos geométricos:",
+          options: [
+            { id: "a", text: "cilindro, círculo, cone", isCorrect: false },
+            { id: "b", text: "esfera, quadrado, triângulo", isCorrect: false },
+            { id: "c", text: "pirâmide, cone, prisma", isCorrect: true },
+            { id: "d", text: "circunferência, prisma, pirâmide", isCorrect: false },
+            { id: "e", text: "pirâmide, trapézio, esfera", isCorrect: false },
+          ],
+    },
+
+    {
+      id: "2",
+          question: "Durante o planejamento da construção de um posto de combustível, o engenheiro responsável estava pesquisando sobre o tamanho do reservatório de combustível a ser construído. O reservatório de um posto é sempre subterrâneo, e, nesse caso, ele deveria ter capacidade para 24 m³, comportando, portanto, 24 mil litros de combustível. Sabendo que esse reservatório possui formato de um paralelepípedo retângulo, o engenheiro o construiu com 3 metros de largura e 4 metros de comprimento para que ele tenha os 24 m³ desejados. A profundidade desse reservatório deve ser de:",
+          options: [
+            { id: "a", text: "2 metros", isCorrect: true },
+            { id: "b", text: "3 metros", isCorrect: false },
+            { id: "c", text: "4 metros", isCorrect: false },
+            { id: "d", text: "5 metros", isCorrect: false },
+            { id: "e", text: "6 metros", isCorrect: false },
+          ],
+    },
+
+    {
+      id: "3",
+          question: "Um recipiente possui formato de um prisma com as dimensões na imagen acima, Sabendo que 2/3 do volume desse recipiente estão ocupados, então o volume não ocupado é igual a:",
+          options: [
+            { id: "a", text: "200 cm³", isCorrect: false },
+            { id: "b", text: "300 cm³", isCorrect: true },
+            { id: "c", text: "500 cm³", isCorrect: false },
+            { id: "d", text: "600 cm³", isCorrect: false },
+            { id: "e", text: "900 cm³", isCorrect: false },
+          ],
+    },
+
+    {
+      id: "4",
+          question: "Uma caixa possui formato de um paralelepípedo reto com 25 cm de largura, 42 cm de altura e 36 cm de altura. A área total dessa caixa mede:",
+          options: [
+            { id: "a", text: "3462 cm²", isCorrect: false },
+            { id: "b", text: "6924 cm²", isCorrect: true },
+            { id: "c", text: "8000 cm²", isCorrect: false },
+            { id: "d", text: "9510 cm²", isCorrect: false },
+            { id: "e", text: "10.369 cm²", isCorrect: false },
+          ],
+    },
+
+    {
+      id: "5",
+          question: "Um reservatório de gás oxigênio foi construído no formato de um cilindro com 1,5 metros de altura e 60 centímetros de diâmetro. Nessas condições, podemos afirmar que o volume desse reservatório em metros cúbicos é de aproximadamente:  (use π=3,1)",
+          options: [
+            { id: "a", text: " 0,40", isCorrect: false },
+            { id: "b", text: "0,42", isCorrect: true },
+            { id: "c", text: "0,44", isCorrect: false },
+            { id: "d", text: "0,46", isCorrect: false },
+            { id: "e", text: "0,48", isCorrect: false },
+          ],
+    },
+  ]
+
+  export const questõesGeometriaAnalitica = [
+    
   ]
     
 

@@ -1,10 +1,8 @@
 import { IonAccordion, IonAccordionGroup, IonButton, IonItem, IonLabel } from "@ionic/react"
 import "./ConponentesMat.css"
-import ListaExercicio from "../ListaExercicios"
-import Algebra from "./Algebra"
-import { questionsBasic, questõesGeometriaPlana } from "./QuestõesMat"
 import GeometriaPlana from "./GeometriaPlana"
 import GeometriaEspacial from "./GeometriaEspacial"
+import GeometriaAnalitica from "./GeometriaAnalistica"
 
 const Geometria: React.FC = () =>{
     return(
@@ -23,6 +21,14 @@ const Geometria: React.FC = () =>{
                 </IonItem>
                 <div className="ion-padding custom-background" slot="content">
                     <GeometriaEspacial/>
+                </div>
+            </IonAccordion>
+            <IonAccordion value="child3">
+                <IonItem slot="header" color={'dark'}>
+                    <IonLabel>Geometria analitica</IonLabel>
+                </IonItem>
+                <div className="ion-padding custom-background" slot="content">
+                    <GeometriaAnalitica/>
                 </div>
             </IonAccordion>
         </IonAccordionGroup>
